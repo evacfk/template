@@ -28,7 +28,7 @@ func initMaxExecDepth() int {
 	return 100000
 }
 
-const MaxOps = 10000
+const MaxOps = 100000
 
 // state represents the state of an execution. It's not part of the
 // template so that multiple executions of the same template
